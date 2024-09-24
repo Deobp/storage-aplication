@@ -66,7 +66,6 @@ import { Material } from './models/material';
   } catch (error) {
     console.error('Error occurred:', error);
   } finally {
-    // Close the connection when the app finishes
     mongoose.connection.close();
   }
 
